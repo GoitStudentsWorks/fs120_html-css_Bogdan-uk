@@ -4,7 +4,7 @@
 }
 
 .background-image {
-    background-image: url(../img/support/support-mob-img-1x-min.jpg);
+    background-image: url(/img/support/support-mob-img-1x-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,8 +15,8 @@
 
 
 @media screen and (min-resolution: 2x) {
-    .support {
-        background-image: url(../img/support/support-mob-img-2x-min.jpg);
+    .background-image {
+        background-image: url(/img/support/support-mob-img-2x-min.jpg);
     }
 }
 
@@ -139,13 +139,13 @@
     }
 
     .background-image {
-        background-image: url(../img/support/support-tab-img-1x-min.jpg);
+        background-image: url(/img/support/support-tab-img-1x-min.jpg);
         width: 704px;
     }
 
     @media screen and (min-resolution: 2x) {
-        .support {
-            background-image: url(../img/support/support-tab-img-2x-min.jpg);
+        .background-image {
+            background-image: url(/img/support/support-tab-img-2x-min.jpg);
         }
     }
 
@@ -168,19 +168,19 @@
 @media screen and (min-width: 1440px) {
     .container {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap ;
         gap: 24px;
     }
 
     .background-image {
-        background-image: url(../img/support/support-img-1x-min.jpg);
+        background-image: url(/img/support/support-img-1x-min.jpg);
         width: 644px;
         height: 767px;
     }
 
     @media screen and (min-resolution: 2x) {
-        .support {
-            background-image: url(../img/support/support-img-2x-min.jpg);
+        .background-image {
+            background-image: url(/img/support/support-img-2x-min.jpg);
         }
     }
 
@@ -197,4 +197,5 @@
         margin: 0;
         padding: 12px 61px;
         min-width: 198px;
-    }}
+    }
+}
