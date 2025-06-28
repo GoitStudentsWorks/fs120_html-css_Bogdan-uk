@@ -183,7 +183,7 @@ align-items: flex-start;
             margin-right: 175px;
         }
         .mob-menu,
-      .mob-menu.is-open {
+    .mob-menu.is-open {
             display: none;
             opacity: 0;
             visibility: hidden;
