@@ -121,7 +121,6 @@ align-items: flex-start;
 }
 .menu-contact-list {
     padding-top: 32px;
-    padding-left: 20px;
 }
 .mob-contact-item:not(:last-child) {
     margin-bottom: 16px;
@@ -149,7 +148,6 @@ align-items: flex-start;
     
     .menu-contact-list {
         padding-top: 32px;
-        padding-left: 32px;
     }
     .mob-menu-list {
             padding-bottom: 32px;
