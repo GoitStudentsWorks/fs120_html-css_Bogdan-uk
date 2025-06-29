@@ -1,6 +1,6 @@
 .about {
   background-color: #1e3a1c;
-  background-image: url(../img/about/about-mobile.jpg);
+  background-image: url(/img/about/about-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11,13 +11,13 @@
 
 @media screen and (max-width: 767px) and (min-resolution: 2x) {
   .about {
-    background-image: url(../img/about/about-mobile2x.jpg);
+    background-image: url(/img/about/about-mobile2x.jpg);
   }
 }
 
 @media screen and (min-width: 768px) {
   .about {
-    background-image: url(../img/about/about-tablet.jpg);
+    background-image: url(/img/about/about-tablet.jpg);
     padding: 80px 0;
     min-width: 768px;
   }
@@ -25,13 +25,13 @@
 
 @media screen and (min-width: 768px) and (min-resolution: 2x) {
   .about {
-    background-image: url(../img/about/about-tablet2x.jpg);
+    background-image: url(/img/about/about-tablet2x.jpg);
   }
 }
 
 @media screen and (min-width: 1440px) {
   .about {
-    background-image: url(../img/about/about.jpg);
+    background-image: url(/img/about/about.jpg);
     padding: 112px 0 94px 0;
     min-width: 1440px;
   }
@@ -39,7 +39,7 @@
 
 @media screen and (min-width: 1440px) and (min-resolution: 2x) {
   .about {
-    background-image: url(../img/about/about2x.jpg);
+    background-image: url(/img/about/about2x.jpg);
   }
 }
 
