@@ -166,7 +166,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .container {
+    .support-container {
         display: flex;
         flex-wrap: wrap ;
         gap: 24px;
