@@ -162,6 +162,9 @@ align-items: flex-start;
     
     
     @media screen and (min-width: 1440px) { 
+        .header-container {
+            padding: 0 64px;
+        }
         .header-list {
             display: flex;
             align-items: center;
