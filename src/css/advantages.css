@@ -3,7 +3,13 @@
   padding-bottom: 32px;
 }
 
+.advantages_div_title {
+  display: flex;
+  flex-direction: column;
+}
+
 .advantages_title_litle {
+  order: 1;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -11,6 +17,7 @@
   margin-top: 0;
 }
 .advantages_title_main {
+  order: 2;
   font-family: 'Comfortaa', sans-serif;
   font-weight: 700;
   font-size: 36px;
