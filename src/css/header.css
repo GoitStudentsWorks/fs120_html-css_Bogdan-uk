@@ -1,6 +1,9 @@
 .header-container {
     padding: 0 20px;
 }
+html {
+    scroll-behavior: smooth;
+}
 .header {
     display: flex;
     align-items: center;
