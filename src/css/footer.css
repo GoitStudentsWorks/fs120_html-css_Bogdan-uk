@@ -151,11 +151,6 @@ height: 0px;
     gap: 24px;
    }
 
-   .footer-logo {
-    width: 164px;
-    height: 70px;
-   }
-
   .footer-divider{
    border: 1px solid rgba(3, 10, 6, 0.15);
    width: 704px;
@@ -163,12 +158,18 @@ height: 0px;
   }
 
   .footer-logo-icon {
+    width: 164px;
+    height: 70px;
+  }
+
+   .footer-logo {
     width: 160px;
     height: 60px;
-  }
-  .footer-soclink-list {
+   }
+
+  /* .footer-soclink-list {
     margin-bottom: 24px;
-  }
+  } */
 
   .footer-list {
     flex-direction: row;
