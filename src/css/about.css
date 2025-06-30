@@ -76,6 +76,7 @@
 @media screen and (min-width: 1440px) {
   .about-title-main {
     font-size: 56px;
+    max-width: 629px;
   }
 }
 
