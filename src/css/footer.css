@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 320px) {
+
 .footer {
   background-color: #75d281;
   padding: 48px 20px;
@@ -75,8 +75,9 @@
 }
 
 .footer-logo-icon {
-    width: 273px;
-    height: 102px;
+    width: 281px;
+    height: 121px;
+    flex-shrink: 0;
 }
 
 .social-link {
@@ -135,9 +136,8 @@ height: 0px;
   color: #030a06;
   line-height: 1.6;
   text-align: center;
-  
 }
-}
+
 
 /* === TABLET === */
 
@@ -253,7 +253,8 @@ height: 0px;
   }
 
 
-    .footer-soclink-list {
+    .footer-soclink-list, 
+    .social-link {
     justify-content: flex-end;
     margin-bottom: 0;
   }
