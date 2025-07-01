@@ -188,6 +188,11 @@ height: 0px;
     flex-wrap: wrap; 
     display: flex;
   }
+
+  .footer-contact-block {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
 }
 
 
@@ -198,10 +203,12 @@ height: 0px;
     padding: 80px 0;
     }
 
-    .footer-contact-block {
+    .footer-contact {
       margin-top: 16px;
       margin-bottom: 16px;
+      
     }
+
 
   /* .footer-container {
     align-items: center;
@@ -213,9 +220,6 @@ height: 0px;
   .footer-logo-icon {
     display: inline-block;
   }
-
-  
-
 
   .social-icon {
     width: 24px;
@@ -282,8 +286,16 @@ height: 0px;
     margin: 0 auto; 
    }
 
+
+
+   .footer-contact-list {
+  
+
+   }
+
    .copyright-text {
-    
+  
+   
    }
   }
 
