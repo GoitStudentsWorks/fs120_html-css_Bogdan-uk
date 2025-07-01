@@ -1,7 +1,3 @@
-.feedback {
-  padding: 32px 16px;
-}
-
 .feedback-title {
   font-family: 'Comfortaa', sans-serif;
   font-weight: 700;
@@ -58,10 +54,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .feedback {
-    padding: 64px 32px;
-  }
-
   .feedback-title {
     width: 560px;
     height: 43px;
@@ -95,10 +87,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .feedback {
-    padding: 64px;
-  }
-
   .feedback-title {
     font-size: 48px;
     height: 116px;
